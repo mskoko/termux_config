@@ -8,4 +8,4 @@ My Termux config
 
 
 ### Installation:
-##### wget https://raw.githubusercontent.com/mskoko/termux_config/main/start && chmod 0777 start && ./start
+- ##### wget https://raw.githubusercontent.com/mskoko/termux_config/main/start && chmod 0777 start && ./start
