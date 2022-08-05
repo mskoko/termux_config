@@ -1,0 +1,15 @@
+# First install from F-Droid "Termux:Boot"
+
+#!/data/data/com.termux/files/usr/bin/sh
+# Create a folder
+mkdir ~/.termux/boot
+# Create a start script file
+echo -e '#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock
+sshd' > ~/.termux/boot/start
+# Add permisions to script file
+chmod 0777 start
+#-------------------------------------------------
+# Start script
+# ~/.termux/boot/start
+# ~/ubuntu-in-termux/startubuntu.sh
